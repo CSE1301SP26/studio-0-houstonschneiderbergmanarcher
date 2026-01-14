@@ -9,7 +9,7 @@ public class BurritoBudget {
 		int burritosEatenWeek4 = 1;
 		
 		int totalBurritos = burritosEatenWeek1 + burritosEatenWeek2 + burritosEatenWeek3 + burritosEatenWeek4;
-		double averageWeeklyBurritos = totalBurritos / 4;
+		double averageWeeklyBurritos = totalBurritos / 4.0;
 		
 		double burritoPrice = 7.50;
 		double averageWeeklyPrice = averageWeeklyBurritos * burritoPrice;
@@ -18,3 +18,7 @@ public class BurritoBudget {
 	
 	}
 }
+// the problem here is that we are doing integer division, but we want it be decimal
+// so we need to change the 4 to a 4.0 to make it a double, so our output can be double
+// it will round down or up to the nearest integer and not what it precisely is!
+// output is $58.125
