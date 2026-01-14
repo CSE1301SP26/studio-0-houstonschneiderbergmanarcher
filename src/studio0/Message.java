@@ -11,4 +11,4 @@ public class Message {
 // 10 PRINT "HELLO, WORLD"
 // 20 GOTO 10
 
-// Reflection: completed work, always do a stage change to commit after each file!
+// Reflection: completed work, always do a stage change to commit after each file and make sure to click the link
